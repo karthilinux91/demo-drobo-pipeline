@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         build(job: 'SQA-Blink-01', propagate: true)
       }
