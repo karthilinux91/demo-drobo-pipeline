@@ -7,4 +7,8 @@ pipeline {
       }
     }
   }
+  environment {
+    drobosn = 'DRB124701A00083'
+    number = '1'
+  }
 }
